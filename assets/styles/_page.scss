@@ -1,0 +1,100 @@
+.prodect-page {
+  margin-top: 3rem !important;
+  .side-bar {
+    padding: 1.5rem;
+    display: flex;
+    background-color: rgba(232, 232, 232, 0.217);
+    width: 15%;
+    border-radius: 20px;
+    
+    .logo {
+      h3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+    }
+    .inpit-style {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }
+  
+  .card-style {
+    margin-top: 1rem;
+  }
+  .card-img-top {
+    width: 100%;
+    min-height: 15rem;
+    max-height: 15rem;
+  }
+  .card {
+    min-height: 15rem;
+    max-height: 15rem;
+    .card-title {
+      color: #fff;
+      opacity: 1 !important;
+      text-align: center;
+    }
+    .card-text {
+      height: 1.5rem;
+      color: #fff;
+      opacity: 1 !important;
+      text-align: center;
+    }
+    .item {
+      padding: 1rem;
+      background-color: black;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      bottom: 250px;
+      opacity: 0;
+      transition: 1s;
+      margin-top: 1rem;
+    }
+    &:hover .item {
+      opacity: 0.7;
+     ;
+    }
+    ul{
+      list-style: none;
+    }
+    .LI-CONTENT {
+      margin-top: 3rem;
+    }
+    .fa {
+      color: white;
+      opacity: 1 !important;
+      cursor: pointer;
+    }
+  }
+  .smoll-sodeBar {
+    display: none;
+  }
+
+ 
+}
+
+  .p-button{
+    background-color: rgba(232, 232, 232, 0.217) !important;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1000px) {
+  .smoll-sodeBar {
+    display: flex !important;
+    justify-content: start;
+    z-index: 1333;
+  }
+  .prodect-page{
+
+    .side-bar {
+      display: none;
+    }
+  }
+
+}

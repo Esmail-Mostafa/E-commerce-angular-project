@@ -1,0 +1,13 @@
+{
+    "apiBaseURL": "https://dummyjson.com/",
+  
+    "endpoints": {
+        "getProdectDetalisbyID":"products/",
+        "GetProdectByCategoryName":"products/category/",
+        "getCategoryName":"products/category/",
+        "AllProduct":"products?limit=12&skip=",
+           "search":"products/search"
+
+    }
+  }
+  
